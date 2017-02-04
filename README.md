@@ -33,3 +33,46 @@ Crowd Funding Farmers practising Natural Farming methods
 			ii. Credit
 				1) Yes ( from former)
 				2) No ( from user)
+
+### API
+	1) POST /login 
+		a. userid : Phoneno or email id
+		b. Pass : Password
+		c. Return :
+			i. Cookie(optional)
+			ii. Status
+			iii. Username
+			iv. userid
+	2) GET /logout
+	3) GET /projects
+		a. Crop
+		b. Period
+		c. Current state
+		d. Target
+		e. Price, unit, quantity,
+		f. Geo location,
+		g. Current accumulation
+		
+		
+	4) GET /project/id
+		a. Farmer Details
+		b. Blog , gallery
+		c. Project details
+		
+		
+	5) GET /journal/user
+	6) GET /journal/user/project_id
+	7) GET /journal/project_id
+	
+### Stack
+Backend:
+	1) Nodejs - Expressjs
+	2) Database - MySQL
+
+FrontEnd:
+	1) JS, Bootstarp
+	
+	
+Interface:
+	1) REST API
+
